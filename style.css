@@ -61,7 +61,7 @@ nav div button{
     justify-content: space-around;
     align-items: center;
     width: 80vw;
-    height: 100vh;
+    height: 100%;
     margin: 40px;
 }
 #bouton{
@@ -91,8 +91,8 @@ nav div button{
     gap: 20px;
 }
 #hero-header img{
-    width: 50%;
-    height: 100vh;
+    width: 40%;
+    height: 80vh;
 }
 .presentation div h1{
     font-size: 40px;
@@ -104,9 +104,10 @@ nav div button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;
-    height: 100vh;
-    margin: 40px;
+    width: 100%;
+    height: 80vh;
+    /* margin: 40px; */
+    gap: 20px;
 }
 .promesses{
     display: flex;
@@ -121,7 +122,7 @@ nav div button{
     padding: 10px;
 }
 .promesses img{
-    width: 60%;
+    width: 50%;
     height: 60vh;
 }
 #Liste ul{
@@ -143,18 +144,20 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90vw;
+    width: 100%;
     height: 100vh;
-    margin: 40px;
+    /* margin: 40px; */
 }
 #services-proposes div{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-left: 9px;
+    /* margin-left: 9px; */
     gap: 10px;
     /* padding: 10px; */
+    width: 80vw;
+    height: 70vh;
 }
 #services-proposes h4{
     font-size: 20px;
@@ -163,16 +166,16 @@ h2{
     
 }
 .card{
- display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30vw;
+    width: 20vw;
     height: 60vh;
     /* padding: 10%; */
 }
 .card img{
-    width: 30vw;
+    width: 20vw;
     height: 200px;
 }
 #services-proposes h3{
@@ -180,6 +183,7 @@ h2{
     font-weight: 500;
     padding: 10px;
     align-self: self-start;
+    margin-left: 12%;
 }
 #projets{
     display: flex;
@@ -187,21 +191,27 @@ h2{
     justify-content: center;
     align-items: center;
     height: 200vh;
-    width: 66vw;
-    margin-left: 20px;
+    width: 100%;
+    /* margin-left: 20px; */
 }
 .projet{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 50vh;
-    width: 90vw;
+    width: 80vw;
     gap: 10px;
     /* padding: 10px; */
 }
+.projet div{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 40%;
+}
 .projet img{
-    width: 50%;
+    width: 40%;
     height: 200px;
 }
 
@@ -211,8 +221,8 @@ h2{
     justify-content: center;
     align-items: center;
     height: 80vh;
-    width: 80vw;
-    /* margin-left: 20px;*/
+    width: 100%;
+    /* margin-left: 20px; */
 }
 .groupe{
     display: flex;
@@ -220,6 +230,8 @@ h2{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    /* padding: 10px; */
+    width: 80vw;
     
 }
 #temoins h3{
@@ -234,7 +246,7 @@ h2{
     justify-content: center;
     align-items: center;
     gap: 30px;
-     height: 40vh;
+     height: 60vh;
     width: 20vw;
 }
 .temoiniage div div{
@@ -252,7 +264,10 @@ h2{
     gap: 10px;
 }
 .images img{
-     width: 20%;
+    width: 20%;
+    border-radius: 100%;
+    border: none;
+    object-fit: cover;
 }
 .images div{
      display: flex;
@@ -284,7 +299,18 @@ footer div h3{
     padding: 30px;
 }
 .contact div a img{
-    width: 10%;
+
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.contact div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: center; */
+    gap: 30px;
+    padding-bottom: 20px;
 }
 .inputs{
      display: flex;

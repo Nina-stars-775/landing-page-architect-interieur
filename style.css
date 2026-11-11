@@ -250,15 +250,16 @@ h2{
 .temoiniage{
      display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: flex-start;
-    gap: 30px;
+    /* gap: 30px; */
     height: 40vh;
     width: 20vw;
      background-color: rgb(227, 165, 120);
      padding-left: 20px;
      padding-right: 20px;
      padding-top: 10px;
+     border-radius: 10%;
 }
 .temoiniage div div{
     display: flex;
@@ -279,6 +280,7 @@ h2{
     border-radius: 100%;
     border: none;
     object-fit: cover;
+     border-radius: 8%;
 }
 .images div{
      display: flex;
@@ -314,6 +316,7 @@ footer div h3{
     width: 30px;
     height: 30px;
     object-fit: cover;
+     border-radius: 20%;
 }
 .contact div {
     display: flex;

@@ -3,14 +3,14 @@ background-color: #D8935C;
 height: 100%;
 width: 100%;
 margin: 0;
-font-family: 'Manrope', sans-serif;
+font-family: "Manrope", sans-serif;
 color: #2E2A26;
 }
 header{
     width: 100%;
     height: 80px;
     margin: 0vh;
-    background-color: white;
+    background-color: beige;
 }
 header nav{
     /* background-color: white; */
@@ -20,7 +20,7 @@ header nav{
     align-content: center;
     width: 100%;
     height: 80px;
-    margin: 0vh; */
+    margin: 0vh; 
    
     /* text-decoration: none; */
     
@@ -41,7 +41,7 @@ header nav a img{
     /* width: 40%; */
 }
 nav div{
-    width: 60vw;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     /* gap: 10px; */
@@ -55,14 +55,19 @@ nav div button{
         width: fit-content;
         height: 30px;
     }
+nav div button:hover{
+    color: black;
+    background-color: white;
+
+}
 #hero-header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 80vw;
-    height: 100%;
-    margin: 40px;
+    width: 100%;
+    height: 100vh;
+    /* margin: 40px; */
 }
 #bouton{
     display: flex;
@@ -89,12 +94,14 @@ nav div button{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    /* padding: 10px; */
 }
 #hero-header img{
-    width: 40%;
+    width: 30%;
     height: 80vh;
 }
 .presentation div h1{
+    font-family: "Cormorant Garamond", sans-serif;
     font-size: 40px;
     font-weight: 600;
     padding: 10px;
@@ -119,6 +126,7 @@ nav div button{
     width: 80%;
 }
 #promesse h4{
+    font-family: "Cormorant Garamond", sans-serif;
     font-size: 25px;
     font-weight: 200;
     padding: 10px;
@@ -136,11 +144,13 @@ nav div button{
     list-style-type: square;
 }
 #Liste h3{
+    font-family: "Cormorant Garamond", sans-serif;
     font-size: 27px;
     font-weight: 500;
     padding: 10px;
 }
 h2{
+    font-family: "Cormorant Garamond", sans-serif;
     font-size: 32px;
     font-weight: 500;
     padding: 10px;
@@ -153,6 +163,7 @@ h2{
     align-items: center;
     width: 100%;
     height: 100vh;
+    background-color: beige;
     /* margin: 40px; */
 }
 #services-proposes div{
@@ -167,6 +178,7 @@ h2{
     height: 70vh;
 }
 #services-proposes h4{
+    font-family: "Cormorant Garamond", sans-serif;
     font-size: 20px;
     font-weight: 200;
     padding: 10px;
@@ -186,6 +198,7 @@ h2{
     height: 200px;
 }
 #services-proposes h3{
+    font-family: "Cormorant Garamond", sans-serif;
     font-size: 27px;
     font-weight: 500;
     padding: 10px;
@@ -229,6 +242,7 @@ h2{
     align-items: center;
     height: 80vh;
     width: 100%;
+    background-color: beige;
     /* margin-left: 20px; */
 }
 .groupe{
@@ -242,6 +256,7 @@ h2{
     
 }
 #temoins h3{
+    font-family: "Cormorant Garamond", sans-serif;
     font-size: 27px;
     font-weight: 500;
     padding: 50px;
@@ -280,7 +295,7 @@ h2{
     border-radius: 100%;
     border: none;
     object-fit: cover;
-     border-radius: 8%;
+     border-radius: 50%;
 }
 .images div{
      display: flex;
@@ -307,6 +322,7 @@ footer{
 
 }
 footer div h3{
+    font-family: "Cormorant Garamond", sans-serif;
     font-size: 27px;
     font-weight: 500;
     padding: 30px;
@@ -338,4 +354,9 @@ footer div h3{
         color:white;
         padding: 8px;
         width: fit-content;
+}
+.inputs button:hover{
+    color: black;
+    background-color: white;
+
 }

@@ -135,8 +135,9 @@ nav div button:hover{
     padding: 10px;
 }
 .promesses img{
-    width: 30%;
-    height: 50vh;
+    width: 40%;
+    height: 60vh;
+    object-fit: cover;
 }
 #Liste{
     display: flex;
